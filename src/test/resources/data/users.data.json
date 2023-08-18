@@ -1,0 +1,27 @@
+[
+  {
+    "username": "Login",
+    "password": "Password",
+    "valid": true
+  },
+  {
+    "username": " Lo.g-in_ ",
+    "password": "P.a,s_s@1234!",
+    "valid": false
+  },
+  {
+    "username": "_ABCDEFGHIJKL-NOPQRSTUVWXYZ.abcdefghijklmnopqrstu#",
+    "password": "_ABCDEFGHIJKLMNOPQRSTU/WXYZ.abcdefghij12no3q!rstu#",
+    "valid": false
+  },
+  {
+    "username": "_1234567/_.KLMNOPQRST9VWXYZabcdefghijklmnopqrstuvwxyz_",
+    "password": "_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_",
+    "valid": false
+  },
+  {
+    "username": "",
+    "password": "",
+    "valid": false
+  }
+]
